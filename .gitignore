@@ -1,0 +1,16 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+.idea/$CACHE_FILE$
+.gitignore
+.idea/artifacts/
+.idea/codeStyles/
+.idea/compiler.xml
+.idea/inspectionProfiles/
+.idea/misc.xml
+javaweb_session_cookie.iml
+.idea
+out/
+*.iml
+*.log
+*.class
+.idea/vcs.xml
