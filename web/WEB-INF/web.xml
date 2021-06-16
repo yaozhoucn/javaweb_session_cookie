@@ -47,4 +47,19 @@
         <servlet-name>sessionDemo3</servlet-name>
         <url-pattern>/s3</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>sessionDemo4</servlet-name>
+        <servlet-class>com.yaozhou.session.SessionDemo4</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>sessionDemo4</servlet-name>
+        <url-pattern>/s4</url-pattern>
+    </servlet-mapping>
+
+    <!--设置session的默认失效时间-->
+    <session-config>
+        <!--session失效时间以分钟为单位-->
+        <session-timeout>1</session-timeout>
+    </session-config>
 </web-app>
