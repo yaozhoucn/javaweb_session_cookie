@@ -30,10 +30,10 @@ public class CookieDemo3 extends HttpServlet {
             for (Cookie c : cookies) {
                 if (c.getName().equals("name")){
                     //解码中文
-                    URLDecoder.decode(c.getValue(),"utf-8");
+                    String val = URLDecoder.decode(c.getValue(), "utf-8");
                     //获取cookie中的值
-                  out.write(c.getValue());
-                    System.out.println(c.getValue());
+                  out.write(val);
+                    System.out.println(val);
                 }
             }
         }else {
