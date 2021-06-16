@@ -13,7 +13,7 @@ import java.io.IOException;
 public class SessionDemo4 extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        HttpSession session = req.getSession();
+                HttpSession session = req.getSession();
         //注销session
         session.removeAttribute("name");
         session.invalidate();
