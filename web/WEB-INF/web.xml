@@ -3,4 +3,21 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+    <servlet>
+        <servlet-name>cookiedemo1</servlet-name>
+        <servlet-class>com.yaozhou.cookie.CookieDemo1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>cookiedemo1</servlet-name>
+        <url-pattern>/c1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>cookiedemo3</servlet-name>
+        <servlet-class>com.yaozhou.cookie.CookieDemo3</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>cookiedemo3</servlet-name>
+        <url-pattern>/c3</url-pattern>
+    </servlet-mapping>
 </web-app>
