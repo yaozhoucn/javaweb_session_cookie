@@ -20,4 +20,31 @@
         <servlet-name>cookiedemo3</servlet-name>
         <url-pattern>/c3</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>sessionDemo1</servlet-name>
+        <servlet-class>com.yaozhou.session.SessionDemo1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>sessionDemo1</servlet-name>
+        <url-pattern>/s1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>sessionDemo2</servlet-name>
+        <servlet-class>com.yaozhou.session.SessionDemo2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>sessionDemo2</servlet-name>
+        <url-pattern>/s2</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>sessionDemo3</servlet-name>
+        <servlet-class>com.yaozhou.session.SessionDemo3</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>sessionDemo3</servlet-name>
+        <url-pattern>/s3</url-pattern>
+    </servlet-mapping>
 </web-app>
